@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <title>Node.js Express REST API</title>
+</head>
+ 
+<body>
+    <h4>Add Person</h4><br>
+    <form action="http://localhost:3000/addperson" method="post">
+        
+        <label for="pname">Name</label>
+        <input type="text" name="pname">
+        <label for="salary">Salary</label>
+        <input type="text" name="salary">
+        <input type="submit">
+    </form>
+<br><br>
+    <a href="http://localhost:3000/persons">Show All persons</a>
+</body>
+ 
+</html>
